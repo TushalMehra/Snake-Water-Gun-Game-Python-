@@ -1,41 +1,49 @@
-# Snake Water Gun Game (Python)
+# 🎮 Snake Water Gun Game (Python)
 
 A simple and fun Python-based mini-game inspired by the classic “Rock Paper Scissors” concept — but with a twist! 🎮
 In this game, you compete against the computer in multiple rounds of Snake 🐍, Water 💧, and Gun 🔫. The winner is determined based on predefined rules:
 
-<img width="956" height="592" alt="image" src="https://github.com/user-attachments/assets/530462ee-3033-492b-b8af-1995227a9243" />
+<img width="1536" height="1024" alt="ChatGPT Image Nov 6, 2025, 02_46_49 AM" src="https://github.com/user-attachments/assets/0dc5deab-02f7-423e-8f00-8093e610a935" />
 
 
-~ drinks Water → 🐍 Snake wins
+---
 
-~ Water douses Gun → 💧 Water wins
+## 🚀 Features
 
-~ Gun shoots Snake → 🔫 Gun wins
+- **🧠 Computer randomly selects Snake, Water, or Gun**
+- **👤 You input your choice**  
+- **⚖️ The program decides who wins**  
+- **🔁 Option to play multiple rounds**  
+- **🧮 Keeps track of scores between you and the computer**  
 
-~ Same choices → It’s a draw! 
+---
 
 
-## **Features**
+## 🧠 Game Rules
 
-* Interactive command-line interface
+| Player vs Computer | Result |
+|--------------------|--------|
+| Snake drinks Water | 🐍 Snake Wins |
+| Water drowns Gun   | 💧 Water Wins |
+| Gun kills Snake    | 🔫 Gun Wins |
+| Same Choice        | 🤝 Draw |
 
-* Randomized computer moves using Python’s random module
-
-* Score tracking across multiple rounds
-
-* Simple, beginner-friendly code — perfect for learning if-else logic, loops, and randomization in Python
+---
 
 
 ## **Concepts Used**
 
-* Conditional statements (if-elif-else)
+- **Conditional statements (if-elif-else)**
 
-* Loops (while, for)
+- **Loops (while, for)**
 
-* Random number generation (random.choice())
+- **Random number generation (random.choice())**
 
-* Functions and basic Python logic
+- **User input handling**
+  
+- **Functions and basic Python logic**
 
+---
 
 ## How to Run
 
